@@ -11,3 +11,4 @@ services:
       - PORT=3000
       - BACKEND_PORT=4000
       - NEXT_PUBLIC_SOCKET_SERVER_URL="http://localhost:4000"
+      - NEXTAUTH_URL="http://localhost:3000"
