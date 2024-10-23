@@ -1,0 +1,1 @@
+- The issue is the socket is disconnecting as we push to the room page, due to which the players are getting removed.
