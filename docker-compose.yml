@@ -10,4 +10,4 @@ services:
       - NODE_ENV=production
       - PORT=3000
       - BACKEND_PORT=4000
-      - NEXT_PUBLIC_SOCKET_SERVER_URL="https://online-chess-production.up.railway.app:4000"
+      - NEXT_PUBLIC_SOCKET_SERVER_URL="https://online-chess-production.up.railway.app:4000.com"
