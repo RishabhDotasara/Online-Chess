@@ -3,8 +3,9 @@
 import React, { createContext, useContext, useEffect, useState } from 'react';
 import { io, Socket } from 'socket.io-client';
 import RecoilProvider from './recoilProvider';
+import { SERVER_URL } from '@/lib/utils';
 
-const SOCKET_SERVER_URL = process.env.NEXT_PUBLIC_SOCKET_SERVER_URL;
+const SOCKET_SERVER_URL = SERVER_URL;
 
 const SocketContext = createContext<Socket | null>(null);
 

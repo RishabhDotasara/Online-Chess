@@ -5,6 +5,7 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
+export const SERVER_URL = "http://localhost:4000"
 export enum GAME_END_TYPE {
   "RESIGN",
   "DRAW",
